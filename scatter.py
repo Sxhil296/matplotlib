@@ -17,7 +17,8 @@ y = np.array([99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86])
 #     ["red", "green", "blue", "yellow", "pink", "black", "orange", "purple", "beige", "brown", "gray", "cyan",
 #      "magenta"])
 colors=np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])
-plt.scatter(x, y, c=colors, cmap='viridis')
+sizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])
+plt.scatter(x, y, c=colors, cmap='viridis', s=sizes, alpha=0.5)
 plt.colorbar()
 
 # day two, the age and the speed of 15 cars
