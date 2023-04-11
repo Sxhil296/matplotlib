@@ -15,4 +15,7 @@ plt.plot(x, y)
 # plt.grid(axis='y')
 plt.grid(color='green', linestyle='--', linewidth = 0.5)
 
+
+
+
 plt.show()
